@@ -11,8 +11,6 @@ public class Login extends Baseclass {
 	@Test
 	public void LoginMethod(){
 		PageFactory.initElements(driver, LoginPage.class);
-		LoginPage.username.sendKeys(properties.getProperty("Username"));
-		
+		LoginPage.username.sendKeys(properties.getProperty("Username"));		
 	}
-
 }
